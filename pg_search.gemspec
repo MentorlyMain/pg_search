@@ -18,8 +18,8 @@ Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
   s.test_files    = `git ls-files -- spec/*`.split("\n")
   s.require_paths = ['lib']
 
-  s.add_dependency 'activerecord', '>= 5.2'
-  s.add_dependency 'activesupport', '>= 5.2'
+  s.add_dependency 'activerecord', '>= 5.1'
+  s.add_dependency 'activesupport', '>= 5.1'
 
   s.add_development_dependency 'pry'
   s.add_development_dependency 'rake'
@@ -34,5 +34,5 @@ Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
   s.add_development_dependency 'warning'
   s.add_development_dependency 'with_model', '>= 1.2'
 
-  s.required_ruby_version = '>= 2.5'
+  s.required_ruby_version = '>= 2.4'
 end
